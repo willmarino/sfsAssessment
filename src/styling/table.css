@@ -1,0 +1,75 @@
+.total-footer-row{
+  height: 30px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 13px;
+
+  background: lightblue;
+  margin-top: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#total-row-one{
+  padding-left: 10px;
+}
+
+#total-row-two{
+  width: 60px;
+
+  padding-left: 5px;
+}
+
+/* ------- */
+
+.add-footer-row{
+  height: 20px;
+  width: 100%;
+}
+
+#add-debt-button{
+  height: 100%;
+  width: 60px;
+  line-height: 20px;
+  font-size: 13px;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin-top: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  transform: all .3s;
+}
+
+#add-debt-button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 1px 1px lightgray;
+}
+
+.row-counts{
+  display: flex;
+
+  margin-top: 10px;
+}
+
+.row-counts p{
+  margin-right: 50px;
+}
+
+.table-container{
+  padding: 30px;
+  border: 1px solid black;
+  box-shadow: 0 0 1px 1px lightgray;
+  border-radius: 5px;
+
+  background: white;
+}
+
+html{
+  background: 	#E8E8E8;
+  font-family: sans-serif;
+}

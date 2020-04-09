@@ -1,0 +1,10 @@
+
+.table-header-container{
+  display: flex;
+  height: 40px;
+}
+
+#row-header{
+  min-height: 100%;
+  border: 1px solid black;
+}

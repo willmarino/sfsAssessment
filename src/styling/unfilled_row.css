@@ -1,0 +1,21 @@
+.unfilled-row-inputs{
+  margin-top: 10px;
+}
+
+.submit-new-row-button{
+  background: lightblue;
+  height: 20px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 10px;
+  transition: all .3s;
+}
+
+.submit-new-row-button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 1px 1px lightgray;
+}
